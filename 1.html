@@ -1,20 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>   // swapnil singh
+<html lang="en">   // 2200290102180
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1</title>
-     <link rel="stylesheet" href="1.css">
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" href="1.css">
+    <!-- Link for font awesome icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Hello Coder Army</h1>
-    <h2>Diet Plan</h2>
-    <ul>
-        <li>Egg</li>
-        <li>Chicken</li>
-        <li>Whey</li>
-        <li>Milk</li>
-    </ul>
-    <h2>Money Frame</h2>
+    <div class="container">
+        <div class="header">
+            <button class="pnr-status-btn">PNR STATUS</button>
+            <button class="charts-vacancy-btn">CHARTS / VACANCY</button>
+        </div>
+        <h1>BOOK TICKET</h1>
+        <form class="booking-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="from" placeholder="From" required>
+                    <i class="fas fa-location-arrow icon"></i>
+                </div>
+                <div class="form-group">
+                    <input type="date" id="date" value="2024-10-16" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="to" placeholder="To" required>
+                    <i class="fas fa-map-marker-alt icon"></i>
+                </div>
+                <div class="form-group">
+                    <select id="class" required>
+                        <option value="all">All Classes</option>
+                        <option value="ec">Air-Conditioned Executive Chair Class (EC)</option>
+                        <option value="1ac">Air-Conditioned First Class (1AC)</option>
+                        <option value="2ac">Air-Conditioned Two-Tier Class (2AC)</option>
+                        <option value="3ac">Air-Conditioned Three-Tier Class (3AC)</option>
+                        <option value="fc">First Class (FC)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <select id="quota">
+                        <option value="general">General</option>
+                        <option value="ladies">Ladies</option>
+                        <option value="senior-lower">Senior Citizen With Lower Berth</option>
+                        <option value="senior-upper">Senior Citizen With Upper Berth</option>
+                        <option value="tatkal">Tatkal</option>
+                    </select>
+                </div>
+            </div>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Person With Disability Concession</label>
+                <label><input type="checkbox"> Flexible With Date</label>
+                <label><input type="checkbox"> Train with Available Berth</label>
+                <label><input type="checkbox"> Railway Pass Concession</label>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="search-btn">Search</button>
+                <button type="button" class="easy-book-btn">Easy Booking on AskDISHA</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
