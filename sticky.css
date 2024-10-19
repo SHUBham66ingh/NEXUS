@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(205, 212, 255);
+}
+
+
+.main{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+
+.stick{
+       width: 25vw;
+       height: 25vh;
+       background-color: aqua;
+       margin: 10px;
+       display: flex;
+       flex-direction: column;
+       border: 5px solid black;
+       border-radius: 20px;
+}
+
+
+
+.stick ul{
+    height: 300px;
+    width: 5vw;
+    margin-left: 25px;
+    margin-bottom: 35px;
+   background-color: rgb(255, 204, 127);   
+     border: 2px solid  black ;  
+     border-radius: 5px;  
+     margin-top: -5px;  
+}
+
+.stick:hover ul{
+background-color: pink;
+}
+
+
+.stick ul li{
+      margin-bottom: 4px;   
+
+ }
+
+h2{
+    text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-weight: strong;
+    text-align: center;
+    background-color: crimson;
+    padding: 10px;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+
+form {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+}
+
+
+
+
+input[type="button"]{
+    background-color: rgb(255, 205, 247);;
+    font-weight: 40px;
+    color: black;
+    font-weight: 500;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+input[type="button"]:hover{
+    background-color: rgb(38, 255, 0);
+}
+
+
+
+
