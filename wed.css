@@ -1,0 +1,56 @@
+
+.main
+{
+    background-color: green;
+}
+
+#first , #second{
+    background-color: rgb(96, 150, 96);
+    margin: 0;
+    line-height: 2.0;
+      
+}
+
+#second{
+    color:  yellow;
+}
+
+
+#third{
+    color: blue;
+    font-weight: bold;
+}
+
+#fourth{
+    color:rgb(241, 42, 75);
+    font-weight: bold;
+}
+
+#fifth{
+    color: orange;
+    font-size: 25px;
+}
+
+#sixth{
+     color: palevioletred;
+}
+
+#seventh{
+    color :  red;
+}
+
+#eight{
+    font-weight: bold;
+}
+
+
+
+table {
+    width: 100%; /* Makes the table expand to 100% of the container width */
+    border-collapse: collapse; /* Removes space between borders */
+}
+th, td {
+    padding: 10px; /* Adds space inside the cells */
+    border: 1px solid black; /* Adds a border to the cells */
+    text-align: left; /* Aligns text to the left */
+}
