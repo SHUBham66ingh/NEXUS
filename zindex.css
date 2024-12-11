@@ -1,0 +1,35 @@
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.container{
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+.box1{
+    background-color: red;
+    position: relative;
+    left: 250px;
+}
+
+.box2{
+    background-color: rgb(0, 89, 255);
+    position: relative;
+    left: 20px;
+     top: 20px;
+     z-index: 4;
+}
+
+.box3{
+    background-color: rgb(0, 255, 81);
+    position: relative;
+    z-index: 5;
+}
+
+.box4{
+    background-color: rgb(255, 0, 204);
+}
+
