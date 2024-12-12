@@ -16,6 +16,11 @@ let obj = {
 let obj2 = Object.create(obj);
 obj2.money = 420;
 obj2.id="shubham";
-console.log(obj2);
+
+
+for(let key in obj2)
+{
+     console.log(key);
+}
 
 
